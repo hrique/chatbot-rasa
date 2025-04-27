@@ -1,0 +1,41 @@
+version: "3.1"
+
+intents:
+  - saudacao
+  - redes_sociais
+  - horarios
+  - endereco
+  - contato
+  - planos
+  - aulas
+  - finalizacao
+
+responses:
+  utter_saudacao:
+  - text: "💬 Oi, tudo bem? Bem-vindo à [Nome da Academia]! \n 💪 Aqui é o lugar perfeito pra começar ou turbinar seu treino! 😎 \n Tá afim de saber mais sobre planos, aulas, horários ou qualquer outra coisa? \n Só mandar a pergunta, estou aqui pra te ajudar a alcançar seus objetivos! 🔥"
+
+  utter_redes_sociais:
+  - text: "💬 Ah, você também pode nos encontrar nas redes sociais! \n 👉 Instagram: https://www.instagram.com/alcateiafitacademia/ \n 👉 Facebook: [facebook.com/alcateiafitacademia] \n 👉 TikTok: [https://www.tiktok.com/@alcateiafit] \n Segue lá pra acompanhar novidades, treinos, dicas e muita motivação! 😎🔥 \n Nos vemos por lá! 💪"
+
+  utter_horarios:
+  - text: "💬 Aqui estão os horários da nossa academia! \n 📅 Segunda a Sexta: 6h às 22h \n 📅 Sábado e Feriados: 9h às 13h \n 📅 Domingo : Fechado \n A gente tá te esperando! Vem treinar com a gente, sem desculpas! 💪😎"
+
+  utter_endereco:
+  - text: " 💬 Aqui está o nosso endereço! \n📍Rua Chiquinha Gonzaga, 10 - Vila Primavera, São Paulo- SP 03389-050 \n 👉 Veja no Google Maps:https://maps.app.goo.gl/tvZKvH6wG9FvgKLC8 \n Nos encontramos por aqui! Quando quiser dar aquele rolê fitness, é só chegar! 😎💪 \n E se precisar de ajuda pra chegar, é só chamar! 😉 "
+
+  utter_contato:
+  - text: "📞 Quer falar com a gente? Bora lá! \n Você pode entrar em contato pelos canais abaixo: \n 📱 WhatsApp: (11) 95046-7062 \n 📧 E-mail: Alcateiafitacademia@gmail.com"
+
+  utter_planos:
+  - text: ""
+
+  utter_aulas:
+  - text: 🎯 Quer saber quais aulas rolam por aqui? Se liga!
+    image: "https://alcateia-fit.vercel.app/imgs/TabelaAulas.png"
+
+  utter_finzalizacao:
+  - text:
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,112 @@
+version: "3.1"
+
+nlu:
+- intent: saudacao
+  examples: |
+    - oi
+    - olá
+    - bom dia
+    - boa tarde
+    - boa noite
+    - salve
+    - oie
+    - oi, tudo bem?
+    - opa, tudo bem?
+    - olá, como vai?
+
+- intent: redes_sociais
+  examples: |
+    - qual é o insta da academia?
+    - quais são as redes sociais da academia?
+    - a academia tem instagram ou tiktok?
+    - tem como me mandar os links das redes sociais?
+    - me passa o @ de vocês?
+    - onde posso seguir a academia?
+    - tem como me passar o instagram da academia?
+    - Vocês postam os treinos nas redes? Queria seguir!
+    - vi uns vídeos legais, como é o perfil da academia?
+    - qual o facebook da academia?
+
+- intent: horarios
+  examples: |
+    - quais são os horários de funcionamento da academia?
+    - a academia abre que horas?
+    - vocês funcionam aos finais de semana?
+    - até que horas a academia fica aberta?
+    - que horas posso treinar aí?
+    - a academia tá aberta agora?
+    - quais os horários de atendimento?
+    - vocês abrem cedo?
+    - qual o horário de abertura e fechamento?
+    - queria saber os horários da academia, pode me passar?
+
+- intent: endereco
+  examples: |
+    - qual é o endereço da academia?
+    - onde fica a academia?
+    - como eu chego aí?
+    - pode me passar a localização da academia?
+    - a academia fica em qual bairro?
+    - qual o endereço completo de vocês?
+    - a academia é perto de onde?
+    - me manda o endereço, por favor?
+    - vocês têm algum link do maps?
+    - onde vocês estão localizados?
+
+- intent: contato
+  examples: |
+    - qual é o número de telefone da academia?
+    - como posso entrar em contato com vocês?
+    - tem um telefone ou whatsApp da academia?
+    - onde posso falar com alguém da academia?
+    - qual é o contato da academia?
+    - como faço pra falar com a equipe da academia?
+    - me passa o número de contato, por favor?
+    - a academia tem whatsApp? qual é o número?
+    - como posso chamar vocês se precisar de algo?
+    - qual é o e-mail de vocês para contato?
+
+- intent: planos
+  examples: |
+    - quais são os planos disponíveis na academia?
+    - vocês têm planos mensais ou anuais?
+    - como funcionam os planos de matrícula?
+    - me conta mais sobre os planos de treino de vocês.
+    - quais são os preços e opções de planos?
+    - A academia tem algum plano promocional?
+    - quais os valores dos planos de assinatura?
+    - tem planos para alunos novos ou iniciantes?
+    - quais planos vocês oferecem para treinar?
+    - como funcionam os pacotes de treino aí?
+
+- intent: aulas
+  examples: |
+    - quais aulas vocês oferecem por aí?
+    - tem aulas de musculação ou outros tipos de treino?
+    - quais são as modalidades de aulas disponíveis?
+    - vocês têm aulas de yoga, pilates ou algo parecido?
+    - quais são os horários das aulas na academia?
+    - quais tipos de treino posso fazer na academia?
+    - a academia oferece aulas em grupo? Quais?
+    - tem aulas de dança ou atividades mais dinâmicas?
+    - vocês têm planos para aulas específicas, como funcional ou spinning?
+    - como funcionam as aulas coletivas de vocês?
+
+- intent: finalizacao
+  examples: |
+    - valeu, até logo!
+    - obrigado pelas informações, até mais!
+    - vou pensar e volto depois, tchau!
+    - perfeito, já sei o que preciso. obrigado!
+    - agradeço, tchau tchau!
+    - tudo certo, obrigado pela ajuda!
+    - já tenho tudo o que preciso, valeu!
+    - muito obrigado, até a próxima!
+    - foi só isso por agora, tchau!
+    - até logo, vou continuar meu treino. obrigado!
+    - obrigado
+    - tchau
+    - adeus
+    - valeu, até a próxima!
+    - obg
+    - vlw
