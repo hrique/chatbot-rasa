@@ -2,29 +2,44 @@ version: "3.1"
 
 stories:
 
-- story: happy path
+- story: duvidas sobre planos
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: planos
+  - action: utter_planos
 
-- story: sad path 1
+- story: duvida horarios
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: horarios
+  - action: utter_horarios
 
-- story: sad path 2
+- story: duvida contatos
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: contato
+  - action: utter_contato
+
+- story: duvida endereco
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: endereco
+  - action: utter_endereco
+
+- story: duvida aulas
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: aulas
+  - action: utter_aulas
+
+- story: duvida contatos
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: redes_sociais
+  - action: utter_redes_sociais

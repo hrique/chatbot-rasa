@@ -37,12 +37,14 @@ nlu:
     - a academia tá aberta agora?
     - quais os horários de atendimento?
     - vocês abrem cedo?
+    - quais os horarios de treino?
     - qual o horário de abertura e fechamento?
     - queria saber os horários da academia, pode me passar?
 
 - intent: endereco
   examples: |
     - qual é o endereço da academia?
+    - qual o endereço da academia?
     - onde fica a academia?
     - como eu chego aí?
     - pode me passar a localização da academia?
@@ -65,6 +67,7 @@ nlu:
     - a academia tem whatsApp? qual é o número?
     - como posso chamar vocês se precisar de algo?
     - qual é o e-mail de vocês para contato?
+    - como posso falar com voces?
 
 - intent: planos
   examples: |
@@ -91,6 +94,7 @@ nlu:
     - tem aulas de dança ou atividades mais dinâmicas?
     - vocês têm planos para aulas específicas, como funcional ou spinning?
     - como funcionam as aulas coletivas de vocês?
+    - quais as aulas disponiveis?
 
 - intent: finalizacao
   examples: |

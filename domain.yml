@@ -12,29 +12,28 @@ intents:
 
 responses:
   utter_saudacao:
-  - text: "💬 Oi, tudo bem? Bem-vindo à [Nome da Academia]! \n 💪 Aqui é o lugar perfeito pra começar ou turbinar seu treino! 😎 \n Tá afim de saber mais sobre planos, aulas, horários ou qualquer outra coisa? \n Só mandar a pergunta, estou aqui pra te ajudar a alcançar seus objetivos! 🔥"
+  - text: "💬 Oi, tudo bem? Bem-vindo à AlcateiaFit! \n💪 Aqui é o lugar perfeito pra começar ou turbinar seu treino! 😎 \nTá afim de saber mais sobre planos, aulas, horários ou qualquer outra coisa? \nSó mandar a pergunta, estou aqui pra te ajudar a alcançar seus objetivos! 🔥"
 
   utter_redes_sociais:
-  - text: "💬 Ah, você também pode nos encontrar nas redes sociais! \n 👉 Instagram: https://www.instagram.com/alcateiafitacademia/ \n 👉 Facebook: [facebook.com/alcateiafitacademia] \n 👉 TikTok: [https://www.tiktok.com/@alcateiafit] \n Segue lá pra acompanhar novidades, treinos, dicas e muita motivação! 😎🔥 \n Nos vemos por lá! 💪"
+  - text: "💬 Ah, você também pode nos encontrar nas redes sociais! \n👉 [Instagram](https://www.instagram.com/alcateiafitacademia/) \n👉 [Facebook](https://facebook.com/alcateiafitacademia) \n👉 [TikTok](https://www.tiktok.com/@alcateiafit) \nSegue lá pra acompanhar novidades, treinos, dicas e muita motivação! 😎🔥 \nNos vemos por lá! 💪"
 
   utter_horarios:
-  - text: "💬 Aqui estão os horários da nossa academia! \n 📅 Segunda a Sexta: 6h às 22h \n 📅 Sábado e Feriados: 9h às 13h \n 📅 Domingo : Fechado \n A gente tá te esperando! Vem treinar com a gente, sem desculpas! 💪😎"
+  - text: "💬 Aqui estão os horários da nossa academia! \n📅 Segunda a Sexta: 6h às 22h \n📅 Sábado e Feriados: 9h às 13h \n📅 Domingo : Fechado \nA gente tá te esperando! Vem treinar com a gente, sem desculpas! 💪😎"
 
   utter_endereco:
-  - text: " 💬 Aqui está o nosso endereço! \n📍Rua Chiquinha Gonzaga, 10 - Vila Primavera, São Paulo- SP 03389-050 \n 👉 Veja no Google Maps:https://maps.app.goo.gl/tvZKvH6wG9FvgKLC8 \n Nos encontramos por aqui! Quando quiser dar aquele rolê fitness, é só chegar! 😎💪 \n E se precisar de ajuda pra chegar, é só chamar! 😉 "
+  - text: "💬 Aqui está o nosso endereço! \n📍Rua Chiquinha Gonzaga, 10 - Vila Primavera, São Paulo- SP 03389-050 \n👉Veja no Google [Maps](https://maps.app.goo.gl/tvZKvH6wG9FvgKLC8) \nNos encontramos por aqui! Quando quiser dar aquele rolê fitness, é só chegar! 😎💪"
 
   utter_contato:
-  - text: "📞 Quer falar com a gente? Bora lá! \n Você pode entrar em contato pelos canais abaixo: \n 📱 WhatsApp: (11) 95046-7062 \n 📧 E-mail: Alcateiafitacademia@gmail.com"
+  - text: "📞 Quer falar com a gente? Bora lá! \nVocê pode entrar em contato pelos canais abaixo: \n📱 [WhatsApp](https://wa.me//5511950467062) (11)95046-7062 \n📧 [E-mail](Alcateiafitacademia@gmail.com)"
 
   utter_planos:
-  - text: ""
+  - text: "💪 Bora garantir seu treino? 💪 Dá uma olhada nos nossos planos: \n💥 Plano Mensal – R$115/mês \nAcesso completo à academia + horários flexíveis! Ideal pra quem gosta de liberdade. \n💥 Plano Trimestral – R$105/mês (R$315 total) \nTreine 3 meses com acesso total e ainda economize R$30! Quem não gosta de um descontinho, né? 😎 \n💥 Plano Semestral – R$90/mês (R$540 total) \nSeis meses de treinos incríveis e R$150 a mais no seu bolso! Vem com tudo! 💪 \n💥 Plano Anual – R$80/mês (R$960 total) \nAcesso total a todas as modalidades + liberdade nos horários! O melhor custo-benefício pra quem já decidiu ser fitness de verdade! 🔥 \nE aí, bora pro treino? 🚀🏋️"
 
   utter_aulas:
-  - text: 🎯 Quer saber quais aulas rolam por aqui? Se liga!
-    image: "https://alcateia-fit.vercel.app/imgs/TabelaAulas.png"
+  - text: "💪 Quer saber quais aulas rolam por aqui? Se liga! [aulas](https://alcateia-fit.vercel.app/imgs/TabelaAulas.png)"
 
-  utter_finzalizacao:
-  - text:
+  utter_finalizacao:
+  - text: "Show! 😎 \nQualquer dúvida é só chamar, tô sempre por aqui! \nBora treinar e fazer acontecer! 💪🔥 \nAté já! 👋"
 
 session_config:
   session_expiration_time: 60
